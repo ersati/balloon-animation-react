@@ -1,0 +1,53 @@
+
+
+
+.baloon-animation {
+  position: relative;
+  background-color: #00e7ff;
+  height: 100vh;
+}
+
+.baloon-animation .cloud {
+  position: absolute;
+  width: 20%;
+}
+
+.baloon-animation .cloud:nth-child(1) {
+  left: 20%;
+  top: 30%;
+}
+
+.baloon-animation .cloud:nth-child(2) {
+  left: 24%;
+  top: 5%;
+}
+
+.baloon-animation .cloud:nth-child(3) {
+  left: 33%;
+  top: 35%;
+  z-index: 1;
+}
+
+.baloon-animation .cloud:nth-child(4) {
+  left: 60%;
+  top: 20%;
+}
+
+.baloon-animation .cloud:nth-child(5) {
+  left: 40%;
+  top: 40%;
+  z-index: 1;
+}
+
+.baloon-animation .cloud:nth-child(6) {
+  left: 60%;
+  top: 30%;
+  z-index: 1;
+}
+
+.baloon-animation .baloon {
+  position: absolute;
+  width: 15%;
+  top: 20%;
+  left: 50%;
+}
